@@ -1,13 +1,21 @@
+import Layout from "../components/Layout";
+
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="layout">
-      <Component {...pageProps} />
+    <div>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
 
       <style jsx global>
         {`
           @font-face {
             font-family: "SourceSansPro";
             src: url("fonts/SourceSansPro-Regular.otf") format("opentype");
+          }
+
+          * {
+            box-sizing: border-box;
           }
 
           main {
@@ -21,7 +29,6 @@ function MyApp({ Component, pageProps }) {
           body {
             font-family: "SourceSansPro";
             margin: 0px;
-            box-sizing: border-box;
           }
 
           .hero-button {
@@ -41,29 +48,12 @@ function MyApp({ Component, pageProps }) {
             cursor: pointer;
           }
 
-          .hero-image {
-            background-image: url("assets/hero-image.png");
-            text-align: center;
-            height: 100vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
+
+          hr {
+            border: 1px solid #E8E8E8;
+            margin: 0px 90px;
           }
 
-          .hero-container {
-            color: #fff;
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0px;
-          }
-
-          .hero-container > p {
-            color: #fff;
-          }
 
           h1,
           h2 {
