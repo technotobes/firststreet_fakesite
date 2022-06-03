@@ -7,7 +7,6 @@ export default function Footer() {
             <div className="footerTopContainer">
                 <div className="footerCol">
                     <span>Fakesite</span>
-                    <br />
                     <a href='#'>About us</a>
                     <a href='#'>Press</a>
                     <a href='#'>Policies</a>
@@ -15,7 +14,6 @@ export default function Footer() {
                 </div>
                 <div className="footerCol">
                     <span>Account</span>
-                    <br />
                     <a href='#'>Edit Profile</a>
                     <a href='#'>Friends</a>
                     <a href='#'>Social</a>
@@ -64,6 +62,7 @@ export default function Footer() {
                         font-size: 22px;
                         color: #EE2D1C;
                         font-weight: bold;
+                        margin-bottom: 10px;
                     }
 
                     .footerBotContainer {

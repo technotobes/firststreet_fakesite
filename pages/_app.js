@@ -48,12 +48,10 @@ function MyApp({ Component, pageProps }) {
             cursor: pointer;
           }
 
-
           hr {
             border: 1px solid #E8E8E8;
             margin: 0px 90px;
           }
-
 
           h1,
           h2 {
@@ -86,11 +84,6 @@ function MyApp({ Component, pageProps }) {
             line-height: 28px;
           }
 
-          a:hover {
-            color: #4c4c51;
-            font-size: 22px;
-            line-height: 28px;
-          }
         `}
       </style>
     </div>

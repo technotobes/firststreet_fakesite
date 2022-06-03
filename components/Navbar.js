@@ -6,13 +6,9 @@ export default function Navbar() {
     return (
         <>
             <nav>
-                <div>
-                    <a href="#">
-                        <span>
-                            <Image src={Logo} />
-                        </span>
-                    </a>
-                </div>
+                <a href="#">
+                    <Image src={Logo} />
+                </a>
                 <div className="navLinks">
                     <a href='#'>Account</a>
                     <a href='#'>Help</a>
@@ -37,8 +33,24 @@ export default function Navbar() {
                         align-items: center;
                         padding: 0px 90px;
                         
+                        
                     }
 
+                    nav a:hover {
+                        color: #4c4c51;
+                        font-size: 22px;
+                        position: relative;
+                    }
+
+                    nav>a:hover {
+                        top: 1px;
+                    }
+
+                    .navLinks {
+                        display: flex;
+                        align-items: center;
+
+                    }
                     .navLinks a {
                         margin-left: 70px;
                         text-decoration: none;
@@ -46,11 +58,6 @@ export default function Navbar() {
                         font-size: 22px;
                     }
 
-                    nav a:hover {
-                        color: #4c4c51;
-                        font-size: 22px;
-                        line-height: 28px;
-                    }
 
                     .profilePic {
                         display:flex;
@@ -63,11 +70,6 @@ export default function Navbar() {
 
                     }
 
-                    .navLinks {
-                        display: flex;
-                        align-items: center;
-
-                    }
 
                 `}
             </style>
