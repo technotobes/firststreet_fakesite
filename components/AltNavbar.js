@@ -24,7 +24,6 @@ export default function Navbar() {
                     </a>
                 </div>
             </nav>
-
             
             <style jsx>
                 {`
@@ -72,10 +71,6 @@ export default function Navbar() {
                         z-index: 99;
                         overflow: hidden;
 
-                    }
-
-                    Menu {
-                        z-index: 99;
                     }
 
                     @media (min-width: 1281px) {

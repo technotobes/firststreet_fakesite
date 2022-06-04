@@ -10,6 +10,7 @@ export default function Help() {
     <>
       <main>
         <div className="mainContainer">
+          <hr className="horizontal"/>
           <h1>How can we help you?</h1>
           <form className="questionForm">
             <div className="inputBorder">
@@ -19,14 +20,13 @@ export default function Help() {
               </button>
             </div>
           </form>
-          <p>Or choose an option that best fits your needs</p>
+          <p className="optionsText">Or choose an option that best fits your needs</p>
           <div className="iconsContainer">
             <a href="#" className="iconBox">
               <GiSpellBook size="6em" color="#EE2D1C" />
               <h2>Guides</h2>
               <p>
                 Learn about the key requirements, responsibilities, and skills
-                that will help you build your fake site
               </p>
             </a>
             <a href="#" className="iconBox">
@@ -59,9 +59,10 @@ export default function Help() {
               display: flex;
               flex-direction: column;
               justify-content: center;
+              align-items: center;
               width: 100%;
               padding: 0px 150px;
-              padding-top: 150px;
+              padding-top: 120px;
               text-align: center;
             }
 
@@ -70,7 +71,6 @@ export default function Help() {
               background-color: #FFF(255, 255, 255, 0.198);
               justify-content: space-between;
               width: 100%;
-              margin: 20px 0px;
               margin-bottom: 80px;
             }
 
@@ -81,7 +81,7 @@ export default function Help() {
               align-items: center;
               width: 430px;
               border: 1px solid #e8e8e8;
-              padding: 60px;
+              padding: 50px;
               text-decoration: none;
             }
 
@@ -90,21 +90,27 @@ export default function Help() {
             }
 
             .iconBox > h2, p {
-              margin-bottom: 0;
+              margin-bottom: 20px;
             }
 
             .questionForm {
               display: flex;
               justify-content: center;
+              width: 100%;
               margin: 50px 0px;
             }
 
             .inputBorder {
               display: flex;
               justify-content: space-between;
-              border: 1px solid #e8e8e8;
+              box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+              border: none;
               border-radius: 30px;
               width: 45%;
+            }
+
+            .optionsText {
+              margin: 35px 0px;
             }
 
             .accordianContainer {
@@ -149,6 +155,11 @@ export default function Help() {
             h3 {
               color: #4c4c51;
               font-size: 25px;
+            }
+
+            hr {
+              margin-bottom: 50px;
+              width: 100%;
             }
 
             p {

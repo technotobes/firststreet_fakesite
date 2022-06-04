@@ -12,7 +12,7 @@ export default function Navbar() {
             </div>
             <nav>
                 <a href="/">
-                    <Image src={Logo} alt="Logo" layout='fixed'/>
+                    <Image src={Logo} alt="Logo"/>
                 </a>
                 <div className="navLinks">
                     <Link href='#'><a>Account</a></Link>
@@ -38,6 +38,7 @@ export default function Navbar() {
                         height: 120px;
                         align-items: center;
                         padding: 0px 150px;
+                       
                     }
 
                     nav a:hover {
