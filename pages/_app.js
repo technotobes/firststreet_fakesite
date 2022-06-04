@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps, router }) {
 
             hr {
               border: 1px solid #E8E8E8;
-              margin: 0px 90px;
+              margin: 0px 150px;
             }
 
             h1,
@@ -219,7 +219,7 @@ function MyApp({ Component, pageProps, router }) {
 
           hr {
             border: 1px solid #E8E8E8;
-            margin: 0px 90px;
+            margin: 0px 150px;
           }
 
           h1,

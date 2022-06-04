@@ -37,7 +37,7 @@ export default function Navbar() {
                         width: 100%;
                         height: 120px;
                         align-items: center;
-                        padding: 0px 90px;
+                        padding: 0px 150px;
                     }
 
                     nav a:hover {

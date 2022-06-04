@@ -48,12 +48,13 @@ export default function Footer() {
                     .footerTopContainer {
                         display: flex;
                         flex-direction: row;
+                        padding: 0px 150px;
                     }
 
                     .footerCol {
                         display: flex;
                         flex-direction: column;
-                        margin-left: 100px;
+                        margin-right: 150px;
                         margin-bottom: 80px;
                     }
 
@@ -77,7 +78,7 @@ export default function Footer() {
                         width: 100%;
                         height: 120px;
                         align-items: center;
-                        padding: 0px 90px;
+                        padding: 0px 150px;
                     }
 
                     .footerBotLinks {

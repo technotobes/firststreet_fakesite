@@ -108,10 +108,11 @@ export default function Videos() {
                         display: flex;
                         justify-content: center;
                         margin-top: 40px;
+                        padding: 0px 150px;
                     }
 
                     .videos {
-                        width: 80%;
+                        width: 100%;
                     }
 
                     .videoContainer {
