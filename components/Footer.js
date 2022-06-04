@@ -18,7 +18,6 @@ export default function Footer() {
                     <a href='#'>Friends</a>
                     <a href='#'>Social</a>
                     <a href='#'>Delete Profile</a>
-
                 </div>
 
             </div>
@@ -102,6 +101,8 @@ export default function Footer() {
                         font-size: 22px;
                         line-height: 28px;
                     }
+
+
 
                 `}
             </style>

@@ -58,7 +58,7 @@ export default function Navbar() {
                     .navLinks > a {
                         margin-left: 70px;
                         text-decoration: none;
-                        color: #FFF;
+                        color: #88939E;
                         font-size: 22px;
                     }
 
