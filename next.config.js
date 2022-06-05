@@ -4,7 +4,11 @@ const nextConfig = {
 
   images : {
     domains: ['i.vimeocdn.com'],
-  }
+    loader: 'akamai',
+    path:"",
+  },
+
+  
 }
 
 module.exports = nextConfig

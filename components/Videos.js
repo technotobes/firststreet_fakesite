@@ -66,7 +66,7 @@ export default function Videos() {
                                         </ReadMore>
                                     </p>
                                 </div>
-                                <a href={video.url} target='_blank' rel='noferrer' className="player">
+                                <a href={video.url} target='_blank' rel='noreferrer' className="player">
                                     <Image 
                                         src={video.thumbnail_large}
                                         alt={video.title}
