@@ -8,8 +8,8 @@ const nextConfig = {
     path:"",
   },
 
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages",
+  basePath: "/firststreet_fakesite",
+  assetPrefix: "/firststreet_fakesite",
 
   
 }
