@@ -3,8 +3,8 @@ export default function Hero() {
         <>
             <div className="hero-image">
                 <div className="hero-container">
-                    <h1>The world's greatest fake site</h1>
-                    <p>Create the world's greatest fake site and enjoy
+                    <h1>The world&apos;s greatest fake site</h1>
+                    <p>Create the world&apos;s greatest fake site and enjoy
                     <br/>
                     the breeze of fresh air when you complete it</p>
                     <button className="hero-button">Do something awesome</button>

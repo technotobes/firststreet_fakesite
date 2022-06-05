@@ -3,12 +3,12 @@ export default function Guide() {
         <div className="guideContainer">
             <div className="guide">
                 <h2>Ready to have your cake and eat it too?</h2>
-                <p>State by designing the experience you have in mind. We'll guide you
+                <p>State by designing the experience you have in mind. We&apos;ll guide you
                     through each step.&nbsp;
                     <br className='break'/>
                     
                     If your experience meets the quality standards,
-                    you'll hear more about what's next.
+                    you&apos;ll hear more about what&apos;s next.
                 </p>
             </div>
             <style jsx>

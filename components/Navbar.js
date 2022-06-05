@@ -11,9 +11,9 @@ export default function Navbar() {
                 <SideBar/>
             </div>
             <nav>
-                <a className='logo' href="/">
+                <Link className='logo' href="/">
                     <Image src={Logo} alt="Logo"/>
-                </a>
+                </Link>
                 <div className="navLinks">
                     <Link href='#'><a>Account</a></Link>
                     <Link href='/help'><a>Help</a></Link>

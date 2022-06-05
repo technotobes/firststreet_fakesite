@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import parse from 'html-react-parser'
+import Image from 'next/image'
+
 
 
 function ReadMore({ children, maxCharacterCount = 100}) {
@@ -65,7 +67,7 @@ export default function Videos() {
                                     </p>
                                 </div>
                                 <a href={video.url} target='_blank' rel='noferrer' className="player">
-                                    <img 
+                                    <Image 
                                         src={video.thumbnail_large}
                                         alt={video.title}
                                         width={580}
@@ -84,11 +86,9 @@ export default function Videos() {
                         position: relative;
                         top: 15px;
                         width: 580px;
+                        height: 320px;
                     }
 
-                    .player img {
-                        border-radius: 5px;
-                    }
 
                     .player::after {
                         display:flex;
@@ -98,11 +98,10 @@ export default function Videos() {
                         background:linear-gradient(#ee2e1d, #ffb1b5);
                         opacity: 0.6;
                         width: 100%;
-                        height: 320px;
+                        height: 100%;
                         content: url('assets/playbtn.png');
                         justify-content: center;
                         align-items: center;
-                        border-radius: 5px;
                     }
 
                     .videosContainer {
