@@ -20,7 +20,7 @@
     - All links are inactive aside from the logo (which takes you to the home/landing page) and "Help" (on the navbar)
 
 
-## Screenshots
+## Preview
 <img src="public/assets/fakesitegif.gif">
    
 ## Featured Technologies: 
