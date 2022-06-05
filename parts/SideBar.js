@@ -15,7 +15,7 @@ export default props => {
         <a className="menu-item" href="#">
           Account
         </a>
-        <a className="menu-item" href="#">
+        <a className="menu-item" href="/help">
           Help
         </a>
       <style jsx>
