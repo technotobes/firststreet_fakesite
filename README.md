@@ -24,7 +24,7 @@
 <img src="public/assets/fakesitegif.gif">
    
 ## Featured Technologies: 
-HTML, CSS, Styled jsx, Javascript, React.js, Next.Js
+HTML, CSS, Styled-JSX, Javascript, React.js, Next.js
 ## External API:
 https://vimeo.com/api/v2/channel/staffpicks/videos.json
 ## This site was built by
