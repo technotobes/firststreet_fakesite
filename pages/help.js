@@ -166,6 +166,88 @@ export default function Help() {
               font-size: 22px;
               color: #88939e;
             }
+
+            @media (min-width: 200px) and (max-width: 300px){
+              .iconBox h2 {
+                font-size: 10px;
+              }
+
+              .iconBox {
+                flex-direction: row;
+              }
+
+
+            }
+
+            @media (min-width: 400px) and (max-width: 768px){
+              .iconsContainer {
+                display: flex;
+                background-color: #FFF(255, 255, 255, 0.198);
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 80px;
+                flex-direction: column;
+                align-items: center;
+              }
+
+              .mainContainer {
+                padding: 0px 40px;
+                padding-top: 120px ;
+              }
+
+              .iconBox {
+                flex-direction: row;
+                width: 100%;
+                padding: 50px;
+                text-decoration: none;
+                margin-bottom: 40px;
+                height: 150px;
+              }
+
+
+              .iconBox p {
+                display:none;
+              }
+
+              .inputBorder {
+              width: 80%;
+            }
+
+            }
+
+            @media (min-width: 768px) and (max-width: 1280px) {
+              .iconBox {
+              width: 250px;
+              height: 250px;
+              padding: 10px;
+              padding-top: 25px;
+              }
+
+
+
+              .iconBox p {
+                display: none;
+              }
+
+              .inputBorder {
+                width: 80%;
+              }
+
+            }
+
+            @media (min-width: 1280px) and (max-width: 1600px) {
+              .iconBox {
+              width: 350px;
+              height: 350px;
+              padding: 20px;
+
+              }
+
+              .inputBorder {
+                width: 60%;
+              }
+            }
+
           `}
         </style>
       </main>

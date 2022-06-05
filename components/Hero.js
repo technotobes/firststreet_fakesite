@@ -29,12 +29,25 @@ export default function Hero() {
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        margin: 0px;
+                        width: 100%;
                        
                     }
 
                     .hero-container > p {
                             color: #fff;
+                    }
+
+
+                    @media (min-width: 300px) and (max-width: 768px){
+                        
+                        h1 {
+                            font-size: 36px;
+                        }
+
+                        p {
+                            font-size: 20px;
+                        }
+
                     }
                 `}
             </style>

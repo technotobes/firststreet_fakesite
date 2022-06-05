@@ -26,8 +26,8 @@ export default function Footer() {
                 <div className="footerBot">
                     <div>
                         <a href='#'>
-                            <span className="profilePic">
-                                <Image src={Logo} alt="Profile"/>
+                            <span className="logo">
+                                <Image src={Logo} alt="Logo"/>
                             </span>
                         </a>
                     </div>
@@ -101,6 +101,38 @@ export default function Footer() {
                         color: #4c4c51;
                         font-size: 22px;
                         line-height: 28px;
+                    }
+
+                    @media (min-width: 300px) and (max-width: 768px){
+                        
+                        .footerTopContainer {
+                            justify-content: space-evenly;
+                            padding: 0;
+                            width: 100%;
+                        }
+
+                        .footerCol {
+                            margin-right: 0;
+                        }
+
+                        .logo {
+                            display: none;
+                        }
+
+                        .footerBot {
+                            padding: 0;
+                            justify-content: center;
+                        }
+
+                        .footerBotLinks {
+                            width: 56%;
+                            justify-content: space-between;
+                        }
+                        
+                        .footerBotLinks a {
+                            margin: 0;
+                        }
+
                     }
 
 

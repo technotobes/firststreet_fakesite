@@ -14,8 +14,8 @@ export default function Accordion(props) {
 				onClick={toggle}
 				type='button'
 			>
-				<div className='title'>
-					<p>{props.title}</p>
+				<div className='titleContainer'>
+					<p className='titleText'>{props.title}</p>
 					{isShowing ? <p className="openClose">-</p> : <p className="openClose">+</p>}
 				</div>
 			</button>
@@ -40,14 +40,19 @@ export default function Accordion(props) {
               cursor: pointer;
             }
 
-            .title {
+            .titleContainer {
                 display: flex;
                 justify-content: space-between;
                 margin: 25px 25px;
             }
 
+            .titleText {
+              font-weight: bold;
+            }
+
             .openClose {
               font-size: 30px;
+              font-weight: bold;
             }
 
             .showing {
@@ -60,6 +65,20 @@ export default function Accordion(props) {
             p {
               margin: 0;
               color: #EE2D1C;
+              
+            }
+
+            @media (min-width: 300px) and (max-width: 768px){
+
+              .titleText {
+                font-size: 14px;
+              }
+
+              .openClose {
+                font-size: 14px;
+                font-weight: bold;
+              }
+
             }
 
           `}

@@ -83,6 +83,7 @@ export default function Videos() {
                         display: flex;
                         position: relative;
                         top: 15px;
+                        width: 580px;
                     }
 
                     .player img {
@@ -126,6 +127,7 @@ export default function Videos() {
                         flex-direction: column;
                         width: 50%;
                         padding-top: 60px;
+                    
                        
                     }
 
@@ -137,6 +139,75 @@ export default function Videos() {
                 
                     .videoInfo h2 {
                         margin: 0px;
+                    }
+
+                    @media (min-width: 300px) and (max-width: 768px){
+                        
+                        .videosContainer {
+                            padding: 0px 30px;
+                        }
+
+                        .videoContainer {
+                            flex-direction: column;
+                            align-items: center;
+                            margin-bottom: 40px;
+                            height: 300px;
+                        }
+
+                        .player {
+                            width: 380px;
+                            
+                        }
+
+                        .videoInfo > p {
+                            display: none;
+                        }
+
+                        .player::after {
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .videoInfo {
+                            width: 80%;
+                            align-items: center;
+                            
+                        }
+
+                        img {
+                            height: 220px;
+                            width: 380px;
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                    }
+
+                    @media (min-width: 768px) and (max-width: 1280px) {
+                        
+
+                        .videoContainer {
+                            flex-direction: column;
+                            margin-bottom: 40px;
+                            align-items: center;
+                            
+                        }
+
+                        .videoInfo {
+                            width: 80%;
+                            align-items: center;
+                        }
+
+                        h2 {
+                            font-size: 30px;
+                        }
+
+                        .videoInfo > p {
+                            display: none;
+                        }
+
                     }
 
                 `}

@@ -13,16 +13,42 @@ export default function Guide() {
                     .guideContainer {
                         display: flex;
                         justify-content: center;
-                        margin: 40px;
+                        margin: 40px 0px;
+                        padding: 0px 500px;
                     }
+
                     .guide {
                         text-align: center;
-                        width: 50%;
+                      
                         
                     }
 
                     .guide p {
                         color: #88939e
+                    }
+
+                    @media (min-width: 300px) and (max-width: 768px){
+                        
+                        h2 {
+                            font-size: 30px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                        }
+
+                        .guideContainer {
+                            padding: 0px 30px;
+                        }  
+
+                    }
+
+                    @media (min-width: 768px) and (max-width: 1280px){
+
+                        .guideContainer {
+                            padding: 0px 150px;
+                        }                        
+
                     }
 
                 `}

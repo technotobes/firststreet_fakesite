@@ -85,6 +85,10 @@ export default function Navbar() {
                             display: none;
                         }
 
+                        nav {
+                           padding-left: 40px;
+                        }
+
                     }
 
 

@@ -11,7 +11,7 @@ export default function Navbar() {
                 <SideBar/>
             </div>
             <nav>
-                <a href="/">
+                <a className='logo' href="/">
                     <Image src={Logo} alt="Logo"/>
                 </a>
                 <div className="navLinks">
@@ -75,6 +75,7 @@ export default function Navbar() {
 
                     }
 
+
                     Menu {
                         z-index: 99;
                     }
@@ -89,6 +90,10 @@ export default function Navbar() {
   
                         .navLinks > a {
                             display: none;
+                        }
+
+                        nav {
+                           padding-left: 40px;
                         }
 
                     }

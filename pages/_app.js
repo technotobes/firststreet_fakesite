@@ -101,6 +101,7 @@ function MyApp({ Component, pageProps, router }) {
               height: 30px;
               top: 40px;
               right: 40px;
+  
             }
 
             /* Color/shape of burger icon bars */
