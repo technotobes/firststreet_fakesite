@@ -10,6 +10,11 @@ const nextConfig = {
 
   basePath: "/firststreet_fakesite",
   assetPrefix: "/firststreet_fakesite",
+  imagesPublicPath: "/firststreet_fakesite/_next/public/images",
+
+  env: {
+      URL: '/firststreet_fakesite',
+  }
 
   
 }

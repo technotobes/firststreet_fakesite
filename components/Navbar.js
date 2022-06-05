@@ -16,7 +16,7 @@ export default function Navbar() {
                 </Link>
                 <div className="navLinks">
                     <Link href='#'><a>Account</a></Link>
-                    <Link href='/help'><a>Help</a></Link>
+                    <Link href={`${process.env.URL}/help`}><a>Help</a></Link>
                     <a href='#'>
                         <span className="profilePic">
                             <Image src={cattoblush} alt="Profile"/>
