@@ -4,7 +4,10 @@ export default function Guide() {
             <div className="guide">
                 <h2>Ready to have your cake and eat it too?</h2>
                 <p>State by designing the experience you have in mind. We'll guide you
-                    through each step. If your experience meets the quality standards,
+                    through each step.&nbsp;
+                    <br className='break'/>
+                    
+                    If your experience meets the quality standards,
                     you'll hear more about what's next.
                 </p>
             </div>
@@ -14,12 +17,12 @@ export default function Guide() {
                         display: flex;
                         justify-content: center;
                         margin: 40px 0px;
-                        padding: 0px 500px;
+                        padding: 0px 150px;
                     }
 
                     .guide {
                         text-align: center;
-                      
+                        
                         
                     }
 
@@ -39,7 +42,11 @@ export default function Guide() {
 
                         .guideContainer {
                             padding: 0px 30px;
-                        }  
+                        }
+
+                        .break {
+                            display: none
+                        }        
 
                     }
 
@@ -47,6 +54,10 @@ export default function Guide() {
 
                         .guideContainer {
                             padding: 0px 150px;
+                        }
+
+                        .break {
+                            display: none
                         }                        
 
                     }
