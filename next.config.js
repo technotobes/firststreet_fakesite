@@ -6,10 +6,11 @@ const nextConfig = {
     domains: ['i.vimeocdn.com'],
     loader: 'akamai',
     path:"",
+    formats: ['image/avif', 'image/webp'],
   },
 
+
   basePath: "/firststreet_fakesite",
-  assetPrefix: "/firststreet_fakesite/",
   imagesPublicPath: "/firststreet_fakesite/_next/public/images",
 
   
