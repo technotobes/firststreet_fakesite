@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 export default function ReadMore({ children, maxCharacterCount = 100}) {
     const text = children;
 
