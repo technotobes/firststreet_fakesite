@@ -12,7 +12,9 @@ export default function Navbar() {
             </div>
             <nav>
                 <Link href="/">
-                    <Image src={Logo} alt="Logo" layout='fixed'/>
+                    <a>
+                        <Image src={Logo} alt="Logo"/>
+                    </a>
                 </Link>
                 <div className="navLinks">
                     <Link href='#'><a>Account</a></Link>
