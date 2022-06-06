@@ -10,7 +10,7 @@ export default props => {
     <Menu right {...props} className="menu" >
       <a href='#'>
           <span className="profilePic">
-              <Image src={cattoblush} alt="Profile"/>
+              <Image src='/assets/cattoblush.png' alt="Profile"/>
           </span>
       </a>
         <a className="menu-item" href="#">
