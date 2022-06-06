@@ -40,6 +40,7 @@ export default props => {
               color: #FFF;
               font-size: 25px;
               margin-left: 5px;
+              text-decoration: none;
             }
 
             .menu-item:hover {
