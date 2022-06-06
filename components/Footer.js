@@ -26,8 +26,8 @@ export default function Footer() {
                 <div className="footerBot">
                     <div>
                         <a href='#'>
-                            <span>
-                                <Image src={Logo} alt="Logo"/>
+                            <span className="logo">
+                                <Image src={Logo} alt="Logo" />
                             </span>
                         </a>
                     </div>
