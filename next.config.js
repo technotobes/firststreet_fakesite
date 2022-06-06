@@ -4,12 +4,9 @@ const nextConfig = {
 
   images : {
     domains: ['i.vimeocdn.com'],
-    loader: 'akamai',
-    path:"",
     formats: ['image/avif', 'image/webp'],
   },
-  
-  basePath: "/firststreet_fakesite",
+
 
 }
 
