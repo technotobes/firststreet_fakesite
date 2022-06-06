@@ -3,6 +3,7 @@ import Image from 'next/dist/client/image'
 import cattoblush from '../public/assets/cattoblush.png'
 import Link from 'next/dist/client/link'
 import SideBar from '../parts/SideBar'
+import { prefix } from '../prefix'
 
 export default function Navbar() {
     return (
@@ -19,7 +20,7 @@ export default function Navbar() {
                     <Link href='/help'><a>Help</a></Link>
                     <a href='#'>
                         <span className="profilePic">
-                            <Image src={cattoblush} alt="Profile"/>
+                            <Image src={`${prefix}/cattoblush.png`} alt="Profile"/>
                         </span>
                     </a>
                 </div>

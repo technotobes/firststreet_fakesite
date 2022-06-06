@@ -2,6 +2,7 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import Image from "next/image";
 import cattoblush from "../public/assets/cattoblush.png"
+import Link from "next/link";
 
 
 export default props => {
@@ -15,9 +16,11 @@ export default props => {
         <a className="menu-item" href="#">
           Account
         </a>
-        <a className="menu-item" href="/help">
-          Help
-        </a>
+        <Link href="/help">
+          <a className="menu-item">
+            Help
+          </a>
+        </Link>
       <style jsx>
         {`
           .profilePic {

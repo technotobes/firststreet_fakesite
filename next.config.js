@@ -8,12 +8,9 @@ const nextConfig = {
     path:"",
     formats: ['image/avif', 'image/webp'],
   },
-
-
-  basePath: "/firststreet_fakesite",
-  imagesPublicPath: "/firststreet_fakesite/_next/public/images",
-
   
+  basePath: "/firststreet_fakesite",
+
 }
 
 module.exports = nextConfig
