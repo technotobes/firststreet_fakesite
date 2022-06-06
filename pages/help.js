@@ -3,7 +3,7 @@ import { RiQuestionnaireLine } from "react-icons/ri";
 import { FaHandsHelping } from "react-icons/fa";
 import { IoSearchCircleSharp } from "react-icons/io5";
 
-import Accordion from "../parts/accordion";
+import Accordion from "../utils/accordion";
 
 export default function Help() {
   return (
