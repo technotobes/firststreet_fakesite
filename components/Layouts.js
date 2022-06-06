@@ -9,7 +9,7 @@ function BaseLayout({ children }) {
         <Head>
           <title>Fake Site</title>
           <meta name="firststreet fakesite" content="Created By Toby Hoang" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/foxlogo.ico" />
         </Head>
 
         <Navbar />
@@ -26,7 +26,7 @@ function WhiteLayout({ children }) {
       <Head>
         <title>Fake Site</title>
         <meta name="firststreet fakesite" content="Created By Toby Hoang" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/foxlogo.ico" />
       </Head>
 
       <AltNavbar />
